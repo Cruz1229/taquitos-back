@@ -37,47 +37,34 @@ public class DetallePedidoService {
 
         Optional<Producto> productoBase = productoService.getById((long)dto.getProducto());
 
-//        if (productoBase.isEmpty()) {
-//            throw new RuntimeException("Producto no encontrado");
-//        }
+        if (productoBase.isPresent()) {
+            Producto producto = productoBase.get();
+            double precioTotal = producto.getPrecio();
 
-        IProducto productoFinal = productoBase.get();
-
-        if (dto.getExtras() != null && !dto.getExtras().isEmpty()) {
-            for (TipoExtra extra : dto.getExtras()) {
-                productoFinal = new ExtraIngredientesDecorator(
-                        productoFinal,
-                        extra.name().toLowerCase().replace('_', ' '),
-                        extra.getPrecio()
-                );
+            // Calcular precio con extras si existen
+            if (dto.getExtras() != null && !dto.getExtras().isEmpty()) {
+                for (TipoExtra extra : dto.getExtras()) {
+                    precioTotal += extra.getPrecio();
+                }
             }
+
+            detallePedido.setPrecioUnitarioConExtras(precioTotal);
+            detallePedido.calcularSubtotal();
+
+            DetallePedido savedDetallePedido = detallePedidoRepository.save(detallePedido);
+
+            // Guardar extras si existen
+            if (dto.getExtras() != null && !dto.getExtras().isEmpty()) {
+                ExtrasPedido extrasPedido = new ExtrasPedido();
+                extrasPedido.setDetallePedidoId(savedDetallePedido.getId());
+                extrasPedido.setExtras(dto.getExtras());
+                extrasPedidoRepository.save(extrasPedido);
+            }
+
+            return savedDetallePedido;
         }
 
-        ProductoIndividual productoIndividual = new ProductoIndividual(productoFinal);
-
-        DetallePedidoComponente detallePedidoComponente = new DetallePedidoComponente();
-        detallePedidoComponente.agregarComponente(productoIndividual);
-
-        double subtotal = detallePedidoComponente.calcularTotal() * dto.getCantidad();
-        detallePedido.setSubtotal((int)subtotal);
-
-//        DetallePedidoComponente detallePedidoComponente = new DetallePedidoComponente();
-//
-//        for (int i = 0; i < dto.getCantidad(); i++) {
-//           detallePedidoComponente.agregarComponente(new ProductoIndividual(productoFinal));
-//        }
-
-
-        DetallePedido saveDetallePedido = detallePedidoRepository.save(detallePedido);
-
-        if (dto.getExtras() != null && !dto.getExtras().isEmpty()) {
-            ExtrasPedido extrasPedido = new ExtrasPedido();
-            extrasPedido.setDetallePedidoId(saveDetallePedido.getId());
-            extrasPedido.setExtras(dto.getExtras());
-            extrasPedidoRepository.save(extrasPedido);
-        }
-
-        return saveDetallePedido;
+        throw new RuntimeException("Producto no encontrado");
     }
 
     public boolean tieneExtra(DetallePedido dp) {

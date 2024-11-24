@@ -22,6 +22,10 @@ public class DetallePedido {
     @Column
     private Long pedido;
 
+    // Nuevo campo para calcular el precio total incluyendo extras
+    @Transient
+    private double precioUnitarioConExtras;
+
     public DetallePedido() {
     }
 
@@ -72,4 +76,17 @@ public class DetallePedido {
     public void setPedido(Long pedido) {
         this.pedido = pedido;
     }
+
+    public double getPrecioUnitarioConExtras() {
+        return precioUnitarioConExtras;
+    }
+
+    public void setPrecioUnitarioConExtras(double precioUnitarioConExtras) {
+        this.precioUnitarioConExtras = precioUnitarioConExtras;
+    }
+
+    public void calcularSubtotal() {
+        this.subtotal = (int)(this.cantidad * this.precioUnitarioConExtras);
+    }
 }
+
