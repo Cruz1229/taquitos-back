@@ -1,0 +1,68 @@
+2024-11-24T13:04:58,641-0600 [25476 1] com.newrelic INFO: Writing to New Relic log file: D:\ITO\1er - Semestre\Modelado orientado a objetos\1er Proyecto\taquitos-back\newrelic\logs\newrelic_agent.log
+2024-11-24T13:04:58,641-0600 [25476 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.5
+2024-11-24T13:04:58,641-0600 [25476 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.5+11-LTS
+2024-11-24T13:04:58,641-0600 [25476 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2024-11-24T13:04:58,659-0600 [25476 1] com.newrelic INFO: Agent Host: Cruz IP: 192.168.123.63
+2024-11-24T13:04:58,659-0600 [25476 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-24T13:04:59,158-0600 [25476 38] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-24T13:04:59,947-0600 [25476 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-24T13:05:00,210-0600 [25476 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-24T13:05:00,302-0600 [25476 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-24T13:05:00,321-0600 [25476 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ITO\1er - Semestre\Modelado orientado a objetos\1er Proyecto\taquitos-back\newrelic\.\newrelic.yml
+2024-11-24T13:05:00,334-0600 [25476 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-24T13:05:00,334-0600 [25476 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1e81f4dc
+2024-11-24T13:05:00,334-0600 [25476 1] com.newrelic INFO: Premain startup complete in 2,266ms
+2024-11-24T13:05:00,334-0600 [25476 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-24T13:05:03,501-0600 [25476 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-24T13:05:07,597-0600 [25476 31] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-24T13:05:43,336-0600 [19104 1] com.newrelic INFO: Writing to New Relic log file: D:\ITO\1er - Semestre\Modelado orientado a objetos\1er Proyecto\taquitos-back\newrelic\logs\newrelic_agent.log
+2024-11-24T13:05:43,336-0600 [19104 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.5
+2024-11-24T13:05:43,336-0600 [19104 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.5+11-LTS
+2024-11-24T13:05:43,336-0600 [19104 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2024-11-24T13:05:43,346-0600 [19104 1] com.newrelic INFO: Agent Host: Cruz IP: 192.168.123.63
+2024-11-24T13:05:43,346-0600 [19104 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-24T13:05:43,761-0600 [19104 38] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-24T13:05:44,347-0600 [19104 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-24T13:05:44,596-0600 [19104 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-24T13:05:44,683-0600 [19104 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-24T13:05:44,707-0600 [19104 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ITO\1er - Semestre\Modelado orientado a objetos\1er Proyecto\taquitos-back\newrelic\.\newrelic.yml
+2024-11-24T13:05:44,715-0600 [19104 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-24T13:05:44,715-0600 [19104 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1e81f4dc
+2024-11-24T13:05:44,715-0600 [19104 1] com.newrelic INFO: Premain startup complete in 1,935ms
+2024-11-24T13:05:44,715-0600 [19104 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-24T13:05:47,547-0600 [19104 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-24T13:05:51,749-0600 [19104 31] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-24T13:11:31,538-0600 [17120 1] com.newrelic INFO: Writing to New Relic log file: D:\ITO\1er - Semestre\Modelado orientado a objetos\1er Proyecto\taquitos-back\newrelic\logs\newrelic_agent.log
+2024-11-24T13:11:31,538-0600 [17120 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.5
+2024-11-24T13:11:31,540-0600 [17120 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.5+11-LTS
+2024-11-24T13:11:31,540-0600 [17120 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2024-11-24T13:11:31,544-0600 [17120 1] com.newrelic INFO: Agent Host: Cruz IP: 192.168.123.63
+2024-11-24T13:11:31,544-0600 [17120 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-24T13:11:32,050-0600 [17120 38] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-24T13:11:32,693-0600 [17120 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-24T13:11:32,975-0600 [17120 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-24T13:11:33,050-0600 [17120 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-24T13:11:33,082-0600 [17120 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ITO\1er - Semestre\Modelado orientado a objetos\1er Proyecto\taquitos-back\newrelic\.\newrelic.yml
+2024-11-24T13:11:33,082-0600 [17120 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-24T13:11:33,082-0600 [17120 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1e81f4dc
+2024-11-24T13:11:33,082-0600 [17120 1] com.newrelic INFO: Premain startup complete in 2,207ms
+2024-11-24T13:11:33,082-0600 [17120 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-24T13:11:35,764-0600 [17120 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-24T13:11:43,105-0600 [17120 57] com.newrelic INFO: Host name is Cruz, display host Cruz for application taquitos-back
+2024-11-24T13:11:43,105-0600 [17120 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-24T13:11:43,736-0600 [17120 57] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-24T13:11:44,149-0600 [17120 57] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-24T13:11:44,149-0600 [17120 57] com.newrelic INFO: Agent run id: BW53YoOrbKz4AF5aRT_UghpnQ3q8AAIBAAAnIQEAAELgAgQ_1IL2AwAGOC4xNi4wAARDcnV6AA10YXF1aXRvcy1iYWNr
+2024-11-24T13:11:44,149-0600 [17120 57] com.newrelic INFO: Agent 17120@Cruz/taquitos-back connected to collector.newrelic.com:443
+2024-11-24T13:11:44,149-0600 [17120 57] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6183493/applications/1070891766
+2024-11-24T13:11:44,165-0600 [17120 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-24T13:11:44,165-0600 [17120 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-24T13:11:44,165-0600 [17120 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-24T13:11:44,165-0600 [17120 57] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-24T13:11:44,181-0600 [17120 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-24T13:11:44,181-0600 [17120 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-24T13:11:44,181-0600 [17120 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-24T13:11:44,181-0600 [17120 57] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-24T13:11:44,558-0600 [17120 57] com.newrelic INFO: Real user monitoring is enabled for application taquitos-back. Auto instrumentation is enabled.
+2024-11-24T13:11:44,558-0600 [17120 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-24T13:48:14,376-0600 [17120 31] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
